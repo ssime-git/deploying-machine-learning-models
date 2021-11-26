@@ -42,7 +42,7 @@ class ModelConfig(BaseModel):
     numerical_vars_with_na: List[str]
     temporal_vars: List[str]
     ref_var: str
-    numericals_log_vars: Sequence[str]
+    numericals_log_vars: Sequence[str] # meaning a list or a string
     binarize_vars: Sequence[str]
     qual_vars: List[str]
     exposure_vars: List[str]

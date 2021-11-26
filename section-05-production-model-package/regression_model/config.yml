@@ -1,3 +1,4 @@
+# File that contains all the constants in our Jupyter notebook file
 # Package Overview
 package_name: regression_model
 
@@ -13,11 +14,15 @@ pipeline_name: regression_model
 pipeline_save_file: regression_model_output_v
 
 # Will cause syntax errors since they begin with numbers
+# Note that here we created a dictionary name > indent key: value
 variables_to_rename:
   1stFlrSF: FirstFlrSF
   2ndFlrSF: SecondFlrSF
   3SsnPorch: ThreeSsnPortch
 
+# here we created a list: name > indent - values
+#list name:
+#  - value
 features:
   - MSSubClass
   - MSZoning
